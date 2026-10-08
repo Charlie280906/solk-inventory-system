@@ -1,0 +1,6 @@
+{
+  "name": "Personal Inventory & Asset Valuer",
+  "description": "Modern personal asset-management dashboard for cataloguing possessions, tracking valuations, generating QR labels, and researching real resale values with AI.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

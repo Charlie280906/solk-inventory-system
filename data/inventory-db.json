@@ -1,0 +1,914 @@
+{
+  "users": [
+    {
+      "id": "usr_charlie_01",
+      "email": "charliesolk28@gmail.com",
+      "name": "Charlie Solk",
+      "created_at": "2026-01-15T09:00:00.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat_tech",
+      "user_id": "usr_charlie_01",
+      "name": "Technology",
+      "parent_category_id": null,
+      "icon": "Cpu",
+      "color": "blue"
+    },
+    {
+      "id": "cat_tech_computers",
+      "user_id": "usr_charlie_01",
+      "name": "Computers",
+      "parent_category_id": "cat_tech",
+      "icon": "Laptop",
+      "color": "blue"
+    },
+    {
+      "id": "cat_tech_audio",
+      "user_id": "usr_charlie_01",
+      "name": "Audio",
+      "parent_category_id": "cat_tech",
+      "icon": "Headphones",
+      "color": "blue"
+    },
+    {
+      "id": "cat_tech_cameras",
+      "user_id": "usr_charlie_01",
+      "name": "Cameras",
+      "parent_category_id": "cat_tech",
+      "icon": "Camera",
+      "color": "blue"
+    },
+    {
+      "id": "cat_tech_wearables",
+      "user_id": "usr_charlie_01",
+      "name": "Wearables",
+      "parent_category_id": "cat_tech",
+      "icon": "Watch",
+      "color": "blue"
+    },
+    {
+      "id": "cat_tech_phones",
+      "user_id": "usr_charlie_01",
+      "name": "Phones & Tablets",
+      "parent_category_id": "cat_tech",
+      "icon": "Smartphone",
+      "color": "blue"
+    },
+    {
+      "id": "cat_clothing",
+      "user_id": "usr_charlie_01",
+      "name": "Clothing",
+      "parent_category_id": null,
+      "icon": "Shirt",
+      "color": "emerald"
+    },
+    {
+      "id": "cat_clothing_tops",
+      "user_id": "usr_charlie_01",
+      "name": "Tops",
+      "parent_category_id": "cat_clothing",
+      "icon": "Shirt",
+      "color": "emerald"
+    },
+    {
+      "id": "cat_clothing_tshirts",
+      "user_id": "usr_charlie_01",
+      "name": "T-shirts",
+      "parent_category_id": "cat_clothing_tops",
+      "icon": "Shirt",
+      "color": "emerald"
+    },
+    {
+      "id": "cat_clothing_outerwear",
+      "user_id": "usr_charlie_01",
+      "name": "Outerwear & Jackets",
+      "parent_category_id": "cat_clothing",
+      "icon": "CloudRain",
+      "color": "emerald"
+    },
+    {
+      "id": "cat_clothing_footwear",
+      "user_id": "usr_charlie_01",
+      "name": "Footwear",
+      "parent_category_id": "cat_clothing",
+      "icon": "Footprints",
+      "color": "emerald"
+    },
+    {
+      "id": "cat_clothing_trainers",
+      "user_id": "usr_charlie_01",
+      "name": "Trainers",
+      "parent_category_id": "cat_clothing_footwear",
+      "icon": "Footprints",
+      "color": "emerald"
+    },
+    {
+      "id": "cat_clothing_accessories",
+      "user_id": "usr_charlie_01",
+      "name": "Accessories",
+      "parent_category_id": "cat_clothing",
+      "icon": "Glasses",
+      "color": "emerald"
+    },
+    {
+      "id": "cat_outdoor",
+      "user_id": "usr_charlie_01",
+      "name": "Outdoor & Sports",
+      "parent_category_id": null,
+      "icon": "Compass",
+      "color": "amber"
+    },
+    {
+      "id": "cat_outdoor_hiking",
+      "user_id": "usr_charlie_01",
+      "name": "Hiking & Trekking",
+      "parent_category_id": "cat_outdoor",
+      "icon": "Mountain",
+      "color": "amber"
+    },
+    {
+      "id": "cat_outdoor_cycling",
+      "user_id": "usr_charlie_01",
+      "name": "Cycling",
+      "parent_category_id": "cat_outdoor",
+      "icon": "Bike",
+      "color": "amber"
+    },
+    {
+      "id": "cat_outdoor_travel",
+      "user_id": "usr_charlie_01",
+      "name": "Luggage & Travel",
+      "parent_category_id": "cat_outdoor",
+      "icon": "Briefcase",
+      "color": "amber"
+    },
+    {
+      "id": "cat_outdoor_skiing",
+      "user_id": "usr_charlie_01",
+      "name": "Skiing & Snow",
+      "parent_category_id": "cat_outdoor",
+      "icon": "Snowflake",
+      "color": "amber"
+    },
+    {
+      "id": "cat_home",
+      "user_id": "usr_charlie_01",
+      "name": "Home & Living",
+      "parent_category_id": null,
+      "icon": "Home",
+      "color": "purple"
+    },
+    {
+      "id": "cat_home_bedding",
+      "user_id": "usr_charlie_01",
+      "name": "Textiles & Bedding",
+      "parent_category_id": "cat_home",
+      "icon": "Bed",
+      "color": "purple"
+    },
+    {
+      "id": "cat_home_tools",
+      "user_id": "usr_charlie_01",
+      "name": "Tools & Hardware",
+      "parent_category_id": "cat_home",
+      "icon": "Wrench",
+      "color": "purple"
+    }
+  ],
+  "items": [
+    {
+      "id": "itm_1791499728044_681l",
+      "user_id": "usr_charlie_01",
+      "inventory_id": "SOLK-000014",
+      "name": "Kindle Paperwhite",
+      "brand": "Amazon",
+      "model": "",
+      "category_id": "cat_tech",
+      "subcategory_id": null,
+      "quantity": 1,
+      "condition": "Good",
+      "location": "",
+      "purchase_date": null,
+      "purchase_price": null,
+      "estimated_purchase_price": null,
+      "resale_value": null,
+      "replacement_value": null,
+      "serial_number": null,
+      "notes": "",
+      "tags": [],
+      "photograph": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=800&q=80",
+      "attachments": [],
+      "valuations": [],
+      "created_at": "2026-10-08T22:48:47.841Z",
+      "updated_at": "2026-10-08T22:48:47.841Z",
+      "last_valued_at": null,
+      "qr_code_url": "https://ais-pre-j4v5u7rl6uj7h2oeo623jd-132316863938.europe-west2.run.app/item/SOLK-000014",
+      "qr_code_data": "data:image/png;base64,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"
+    },
+    {
+      "id": "itm_1791498362801_cvyo",
+      "user_id": "usr_charlie_01",
+      "inventory_id": "SOLK-000013",
+      "name": "Nordica Steadfast 168cm skis",
+      "brand": "Nordica",
+      "model": "Steadfast",
+      "category_id": "cat_outdoor",
+      "subcategory_id": "cat_outdoor_skiing",
+      "quantity": 1,
+      "condition": "Good",
+      "location": "Ski locker",
+      "purchase_date": null,
+      "purchase_price": null,
+      "estimated_purchase_price": null,
+      "resale_value": 65,
+      "replacement_value": null,
+      "serial_number": null,
+      "notes": "",
+      "tags": [],
+      "photograph": "https://cdn.shoplightspeed.com/shops/602521/files/72549245/nordica-steadfast-80-ski-pkg-2026-168cm.jpg",
+      "attachments": [],
+      "valuations": [
+        {
+          "id": "val_1791498378215",
+          "item_id": "itm_1791498362801_cvyo",
+          "value_low": 59,
+          "value_high": 72,
+          "suggested_price": 65,
+          "currency": "GBP",
+          "confidence": "High",
+          "valuation_type": "AI",
+          "valuation_date": "2026-10-08T22:26:18.215Z",
+          "source_information": "Researched comparable UK second-hand market listings.",
+          "comparable_count": 6,
+          "comparable_listings": [
+            {
+              "title": "Nordica Steadfast 168cm skis (Good)",
+              "price": "£75",
+              "platform": "eBay UK Sold",
+              "condition": "Good",
+              "notes": "Completed transaction in equivalent cosmetic state"
+            },
+            {
+              "title": "Nordica Nordica Steadfast 168cm skis",
+              "price": "£59",
+              "platform": "Vinted / Second Hand",
+              "condition": "Good",
+              "notes": "Similar item listed without original packaging"
+            },
+            {
+              "title": "Nordica Steadfast 168cm skis refurbished/pre-owned",
+              "price": "£72",
+              "platform": "Specialist Re-Commerce",
+              "condition": "Good",
+              "notes": "Tested and verified working condition"
+            }
+          ],
+          "market_summary": "Solid secondary liquidity for Nordica Nordica Steadfast 168cm skis. Condition is assessed as Good, keeping asking prices stable around £59–£72.",
+          "web_search_queries": [],
+          "grounding_sources": []
+        }
+      ],
+      "created_at": "2026-10-08T22:26:02.760Z",
+      "updated_at": "2026-10-08T22:57:02.968Z",
+      "last_valued_at": "2026-10-08T22:26:18.215Z",
+      "qr_code_data": "data:image/png;base64,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",
+      "qr_code_url": "https://ais-pre-j4v5u7rl6uj7h2oeo623jd-132316863938.europe-west2.run.app/item/SOLK-000013"
+    },
+    {
+      "id": "itm_001",
+      "inventory_id": "SOLK-000001",
+      "name": "MacBook Pro 14\" M3 Pro",
+      "brand": "Apple",
+      "model": "14-inch Space Black (18GB / 512GB)",
+      "category_id": "cat_tech",
+      "subcategory_id": "cat_tech_computers",
+      "quantity": 1,
+      "condition": "Excellent",
+      "location": "Home Office Desk",
+      "purchase_date": "2024-03-10",
+      "purchase_price": 1899,
+      "estimated_purchase_price": null,
+      "resale_value": 1450,
+      "replacement_value": 1999,
+      "serial_number": "C02G9012MD6R",
+      "notes": "Space Black, pristine screen with AppleCare+ active. Battery health at 96% with 82 cycles.",
+      "tags": [
+        "Work",
+        "Apple",
+        "Computing"
+      ],
+      "photograph": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2026-01-20T10:15:00Z",
+      "updated_at": "2026-10-07T14:20:00Z",
+      "last_valued_at": "2026-10-07T14:20:00Z",
+      "valuations": [
+        {
+          "id": "val_001_1",
+          "item_id": "itm_001",
+          "value_low": 1380,
+          "value_high": 1520,
+          "suggested_price": 1450,
+          "currency": "GBP",
+          "confidence": "High",
+          "valuation_type": "AI",
+          "valuation_date": "2026-10-07T14:20:00Z",
+          "source_information": "Researched 12 recent eBay UK sold listings and Back Market refurbished benchmarks.",
+          "comparable_count": 12,
+          "market_summary": "Solid demand for M3 Pro 18GB Space Black models in excellent cosmetic condition with low cycle count.",
+          "comparable_listings": [
+            {
+              "title": "Apple MacBook Pro 14\" M3 Pro 18GB 512GB Space Black Boxed",
+              "price": "£1,475",
+              "platform": "eBay UK Sold",
+              "condition": "Used - Excellent"
+            },
+            {
+              "title": "MacBook Pro 14 M3 Pro 18GB / 512GB SSD Space Black",
+              "price": "£1,420",
+              "platform": "eBay UK Sold",
+              "condition": "Excellent"
+            },
+            {
+              "title": "Apple MacBook Pro 14\" M3 Pro (Late 2023)",
+              "price": "£1,499",
+              "platform": "Back Market UK",
+              "condition": "Refurbished Grade A"
+            }
+          ]
+        }
+      ],
+      "attachments": [
+        {
+          "id": "att_001_1",
+          "item_id": "itm_001",
+          "name": "Apple_Receipt_Mar2024.pdf",
+          "file_url": "#",
+          "file_type": "application/pdf",
+          "uploaded_at": "2026-01-20T10:15:00Z"
+        }
+      ],
+      "user_id": "usr_charlie_01",
+      "qr_code_data": "data:image/png;base64,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",
+      "qr_code_url": "https://ais-pre-j4v5u7rl6uj7h2oeo623jd-132316863938.europe-west2.run.app/item/SOLK-000001"
+    },
+    {
+      "id": "itm_002",
+      "inventory_id": "SOLK-000002",
+      "name": "WH-1000XM5 Noise Cancelling Headphones",
+      "brand": "Sony",
+      "model": "WH-1000XM5 Silver",
+      "category_id": "cat_tech",
+      "subcategory_id": "cat_tech_audio",
+      "quantity": 1,
+      "condition": "Like New",
+      "location": "Home Office Desk",
+      "purchase_date": "2024-06-18",
+      "purchase_price": 349,
+      "estimated_purchase_price": null,
+      "resale_value": 220,
+      "replacement_value": 349,
+      "serial_number": "SN-7890124-SIL",
+      "notes": "Includes original zippered carry case, 3.5mm cable, and USB-C lead. Minimal headband wear.",
+      "tags": [
+        "Audio",
+        "Travel",
+        "Noise Cancelling"
+      ],
+      "photograph": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2026-02-05T11:00:00Z",
+      "updated_at": "2026-10-06T09:45:00Z",
+      "last_valued_at": "2026-10-06T09:45:00Z",
+      "valuations": [
+        {
+          "id": "val_002_1",
+          "item_id": "itm_002",
+          "value_low": 210,
+          "value_high": 235,
+          "suggested_price": 220,
+          "currency": "GBP",
+          "confidence": "High",
+          "valuation_type": "AI",
+          "valuation_date": "2026-10-06T09:45:00Z",
+          "source_information": "Analysed 15 comparable completed transactions across eBay UK and CeX Grade A.",
+          "comparable_count": 15,
+          "market_summary": "Consistent secondary market volume; boxed silver editions maintain strong resale values.",
+          "comparable_listings": [
+            {
+              "title": "Sony WH-1000XM5 Wireless Headphones - Silver Boxed",
+              "price": "£225",
+              "platform": "eBay UK Sold",
+              "condition": "Like New"
+            },
+            {
+              "title": "Sony WH1000XM5 Silver Noise Cancelling Over-Ear",
+              "price": "£215",
+              "platform": "eBay UK Sold",
+              "condition": "Used - Mint"
+            }
+          ]
+        }
+      ],
+      "attachments": [],
+      "user_id": "usr_charlie_01",
+      "qr_code_data": "data:image/png;base64,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",
+      "qr_code_url": "https://ais-pre-j4v5u7rl6uj7h2oeo623jd-132316863938.europe-west2.run.app/item/SOLK-000002"
+    },
+    {
+      "id": "itm_003",
+      "inventory_id": "SOLK-000003",
+      "name": "Bedale Waxed Cotton Jacket",
+      "brand": "Barbour",
+      "model": "Bedale Classic Tartan Lining (Sage, Size 40)",
+      "category_id": "cat_clothing",
+      "subcategory_id": "cat_clothing_outerwear",
+      "quantity": 1,
+      "condition": "Good",
+      "location": "Bedroom wardrobe",
+      "purchase_date": null,
+      "purchase_price": null,
+      "estimated_purchase_price": 280,
+      "resale_value": 135,
+      "replacement_value": 329,
+      "serial_number": null,
+      "notes": "Purchased second-hand or gift several years ago. Rewaxed in autumn 2025. Classic corduroy collar intact.",
+      "tags": [
+        "Heritage",
+        "Jacket",
+        "Waxed"
+      ],
+      "photograph": "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2026-02-12T16:30:00Z",
+      "updated_at": "2026-10-01T12:00:00Z",
+      "last_valued_at": "2026-10-01T12:00:00Z",
+      "valuations": [
+        {
+          "id": "val_003_1",
+          "item_id": "itm_003",
+          "value_low": 120,
+          "value_high": 150,
+          "suggested_price": 135,
+          "currency": "GBP",
+          "confidence": "Medium",
+          "valuation_type": "AI",
+          "valuation_date": "2026-10-01T12:00:00Z",
+          "source_information": "Researched Vinted UK & eBay vintage outerwear sales for Barbour Bedale size 40.",
+          "comparable_count": 9,
+          "market_summary": "Sought-after classic silhouette; freshly re-waxed condition commands upper tier of used listings.",
+          "comparable_listings": [
+            {
+              "title": "Barbour Bedale Waxed Jacket Sage Green Size 40 C40 Rewaxed",
+              "price": "£140",
+              "platform": "eBay UK",
+              "condition": "Good used"
+            },
+            {
+              "title": "Vintage Barbour Bedale Jacket 40 Sage Tartan",
+              "price": "£125",
+              "platform": "Vinted",
+              "condition": "Good"
+            }
+          ]
+        }
+      ],
+      "attachments": [],
+      "user_id": "usr_charlie_01",
+      "qr_code_data": "data:image/png;base64,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",
+      "qr_code_url": "https://ais-pre-j4v5u7rl6uj7h2oeo623jd-132316863938.europe-west2.run.app/item/SOLK-000003"
+    },
+    {
+      "id": "itm_004",
+      "inventory_id": "SOLK-000004",
+      "name": "Leica Q2 Full Frame Compact Camera",
+      "brand": "Leica",
+      "model": "Q2 (47.3 MP, Summilux 28mm f/1.7 ASPH)",
+      "category_id": "cat_tech",
+      "subcategory_id": "cat_tech_cameras",
+      "quantity": 1,
+      "condition": "Excellent",
+      "location": "Study Shelf",
+      "purchase_date": "2023-09-12",
+      "purchase_price": 4200,
+      "estimated_purchase_price": null,
+      "resale_value": 3150,
+      "replacement_value": 4500,
+      "serial_number": "5582910",
+      "notes": "Includes original Leica hood, metal cap, two OEM BP-SCL4 batteries, and Arte di Mano half case.",
+      "tags": [
+        "Photography",
+        "Luxury",
+        "Optics"
+      ],
+      "photograph": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2026-03-01T14:00:00Z",
+      "updated_at": "2026-10-07T11:15:00Z",
+      "last_valued_at": "2026-10-07T11:15:00Z",
+      "valuations": [
+        {
+          "id": "val_004_1",
+          "item_id": "itm_004",
+          "value_low": 3000,
+          "value_high": 3300,
+          "suggested_price": 3150,
+          "currency": "GBP",
+          "confidence": "High",
+          "valuation_type": "AI",
+          "valuation_date": "2026-10-07T11:15:00Z",
+          "source_information": "Cross-referenced MPB UK, Park Cameras used inventory, and eBay sold auctions.",
+          "comparable_count": 8,
+          "market_summary": "Leica Q2 remains exceptionally resilient in secondary value despite Q3 release, especially with accessories.",
+          "comparable_listings": [
+            {
+              "title": "Leica Q2 Digital Camera - Excellent Condition Boxed",
+              "price": "£3,190",
+              "platform": "MPB UK",
+              "condition": "Excellent"
+            },
+            {
+              "title": "Leica Q2 47.3MP Compact Digital Camera Black 28mm",
+              "price": "£3,100",
+              "platform": "eBay UK Sold",
+              "condition": "Used - Excellent"
+            }
+          ]
+        }
+      ],
+      "attachments": [
+        {
+          "id": "att_004_1",
+          "item_id": "itm_004",
+          "name": "Leica_Store_Mayfair_Receipt.pdf",
+          "file_url": "#",
+          "file_type": "application/pdf",
+          "uploaded_at": "2026-03-01T14:00:00Z"
+        },
+        {
+          "id": "att_004_2",
+          "item_id": "itm_004",
+          "name": "Certificate_of_Authenticity.jpg",
+          "file_url": "#",
+          "file_type": "image/jpeg",
+          "uploaded_at": "2026-03-01T14:05:00Z"
+        }
+      ],
+      "user_id": "usr_charlie_01",
+      "qr_code_data": "data:image/png;base64,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",
+      "qr_code_url": "https://ais-pre-j4v5u7rl6uj7h2oeo623jd-132316863938.europe-west2.run.app/item/SOLK-000004"
+    },
+    {
+      "id": "itm_005",
+      "inventory_id": "SOLK-000005",
+      "name": "Beta AR Gore-Tex Pro Jacket",
+      "brand": "Arc'teryx",
+      "model": "Beta AR Men (Black, Size Large)",
+      "category_id": "cat_outdoor",
+      "subcategory_id": "cat_outdoor_hiking",
+      "quantity": 1,
+      "condition": "Good",
+      "location": "Hallway Coat Rack",
+      "purchase_date": "2023-11-20",
+      "purchase_price": 500,
+      "estimated_purchase_price": null,
+      "resale_value": 280,
+      "replacement_value": 550,
+      "serial_number": null,
+      "notes": "No delamination, seam tape in great shape, DWR refreshed with Nikwax Tech Wash.",
+      "tags": [
+        "Hiking",
+        "Gore-Tex",
+        "Waterproof"
+      ],
+      "photograph": "https://images.unsplash.com/photo-1548883354-7622d03aca27?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2026-03-15T09:30:00Z",
+      "updated_at": "2026-09-28T10:00:00Z",
+      "last_valued_at": "2026-09-28T10:00:00Z",
+      "valuations": [
+        {
+          "id": "val_005_1",
+          "item_id": "itm_005",
+          "value_low": 260,
+          "value_high": 300,
+          "suggested_price": 280,
+          "currency": "GBP",
+          "confidence": "Medium",
+          "valuation_type": "AI",
+          "valuation_date": "2026-09-28T10:00:00Z",
+          "source_information": "Cross-referenced eBay UK outdoor apparel and Vinted Gore-Tex Pro sales.",
+          "comparable_count": 7,
+          "market_summary": "High demand for Arc'teryx Beta AR in Black Size L; authentic verified tags preserve premium resale."
+        }
+      ],
+      "attachments": [],
+      "user_id": "usr_charlie_01",
+      "qr_code_data": "data:image/png;base64,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",
+      "qr_code_url": "https://ais-pre-j4v5u7rl6uj7h2oeo623jd-132316863938.europe-west2.run.app/item/SOLK-000005"
+    },
+    {
+      "id": "itm_006",
+      "inventory_id": "SOLK-000006",
+      "name": "Air Jordan 1 Retro High OG \"Lost & Found\"",
+      "brand": "Nike",
+      "model": "Chicago Lost & Found (UK Size 10 / US 11)",
+      "category_id": "cat_clothing",
+      "subcategory_id": "cat_clothing_trainers",
+      "quantity": 1,
+      "condition": "Like New",
+      "location": "Bedroom wardrobe",
+      "purchase_date": "2022-11-19",
+      "purchase_price": 165,
+      "estimated_purchase_price": null,
+      "resale_value": 240,
+      "replacement_value": 310,
+      "serial_number": "DZ5485-612",
+      "notes": "Worn twice only, zero heel drag. Includes vintage receipt voucher, extra laces, and aged graphic box.",
+      "tags": [
+        "Sneakers",
+        "Jordan",
+        "Collectible"
+      ],
+      "photograph": "https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2026-04-01T12:00:00Z",
+      "updated_at": "2026-10-05T15:30:00Z",
+      "last_valued_at": "2026-10-05T15:30:00Z",
+      "valuations": [
+        {
+          "id": "val_006_1",
+          "item_id": "itm_006",
+          "value_low": 225,
+          "value_high": 260,
+          "suggested_price": 240,
+          "currency": "GBP",
+          "confidence": "High",
+          "valuation_type": "AI",
+          "valuation_date": "2026-10-05T15:30:00Z",
+          "source_information": "StockX UK recent sales and eBay UK sneaker authenticity program sales.",
+          "comparable_count": 14,
+          "market_summary": "Steady resale price for UK 10 pairs with full original packaging and accessories."
+        }
+      ],
+      "attachments": [],
+      "user_id": "usr_charlie_01",
+      "qr_code_data": "data:image/png;base64,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",
+      "qr_code_url": "https://ais-pre-j4v5u7rl6uj7h2oeo623jd-132316863938.europe-west2.run.app/item/SOLK-000006"
+    },
+    {
+      "id": "itm_007",
+      "inventory_id": "SOLK-000007",
+      "name": "Fenix 7 Sapphire Solar GPS Watch",
+      "brand": "Garmin",
+      "model": "Fenix 7 Sapphire Solar (Carbon Gray Titanium with Black Band)",
+      "category_id": "cat_tech",
+      "subcategory_id": "cat_tech_wearables",
+      "quantity": 1,
+      "condition": "Excellent",
+      "location": "Bedside Table",
+      "purchase_date": "2023-05-10",
+      "purchase_price": 680,
+      "estimated_purchase_price": null,
+      "resale_value": 390,
+      "replacement_value": 749,
+      "serial_number": "6S8014522",
+      "notes": "Sapphire glass is completely scratch-free. Titanium bezel has minuscule pin mark near 2 o'clock.",
+      "tags": [
+        "Fitness",
+        "GPS",
+        "Titanium"
+      ],
+      "photograph": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2026-04-18T10:00:00Z",
+      "updated_at": "2026-09-15T14:00:00Z",
+      "last_valued_at": "2026-09-15T14:00:00Z",
+      "valuations": [],
+      "attachments": [],
+      "user_id": "usr_charlie_01",
+      "qr_code_data": "data:image/png;base64,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",
+      "qr_code_url": "https://ais-pre-j4v5u7rl6uj7h2oeo623jd-132316863938.europe-west2.run.app/item/SOLK-000007"
+    },
+    {
+      "id": "itm_008",
+      "inventory_id": "SOLK-000008",
+      "name": "Sirrus X 4.0 Gravel/Hybrid Bicycle",
+      "brand": "Specialized",
+      "model": "Sirrus X 4.0 2023 (Gloss Smoke / Charcoal, Size L)",
+      "category_id": "cat_outdoor",
+      "subcategory_id": "cat_outdoor_cycling",
+      "quantity": 1,
+      "condition": "Good",
+      "location": "Garage",
+      "purchase_date": "2023-04-12",
+      "purchase_price": 1200,
+      "estimated_purchase_price": null,
+      "resale_value": 650,
+      "replacement_value": 1350,
+      "serial_number": "WSBC019024982R",
+      "notes": "Upgraded with SKS Bluemels mudguards and Tubus rear rack. Future Shock 1.5 damping smooth.",
+      "tags": [
+        "Cycling",
+        "Commuter",
+        "Fitness"
+      ],
+      "photograph": "https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2026-05-02T13:40:00Z",
+      "updated_at": "2026-08-20T11:00:00Z",
+      "last_valued_at": "2026-08-20T11:00:00Z",
+      "valuations": [],
+      "attachments": [],
+      "user_id": "usr_charlie_01",
+      "qr_code_data": "data:image/png;base64,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",
+      "qr_code_url": "https://ais-pre-j4v5u7rl6uj7h2oeo623jd-132316863938.europe-west2.run.app/item/SOLK-000008"
+    },
+    {
+      "id": "itm_009",
+      "inventory_id": "SOLK-000009",
+      "name": "Black Hole Duffel 55L",
+      "brand": "Patagonia",
+      "model": "Black Hole Duffel 55L (Classic Navy)",
+      "category_id": "cat_outdoor",
+      "subcategory_id": "cat_outdoor_travel",
+      "quantity": 1,
+      "condition": "Like New",
+      "location": "Storage box 3",
+      "purchase_date": "2024-01-08",
+      "purchase_price": 140,
+      "estimated_purchase_price": null,
+      "resale_value": 95,
+      "replacement_value": 150,
+      "serial_number": null,
+      "notes": "100% recycled ripstop weather-resistant TPU laminate. Used for 2 weekend trips.",
+      "tags": [
+        "Travel",
+        "Duffel",
+        "Luggage"
+      ],
+      "photograph": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2026-05-19T08:00:00Z",
+      "updated_at": "2026-09-01T09:00:00Z",
+      "last_valued_at": "2026-09-01T09:00:00Z",
+      "valuations": [],
+      "attachments": [],
+      "user_id": "usr_charlie_01",
+      "qr_code_data": "data:image/png;base64,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",
+      "qr_code_url": "https://ais-pre-j4v5u7rl6uj7h2oeo623jd-132316863938.europe-west2.run.app/item/SOLK-000009"
+    },
+    {
+      "id": "itm_010",
+      "inventory_id": "SOLK-000010",
+      "name": "Supima Cotton Crew Neck T-Shirts",
+      "brand": "Uniqlo",
+      "model": "Supima Cotton Short Sleeve (Size M)",
+      "category_id": "cat_clothing",
+      "subcategory_id": "cat_clothing_tshirts",
+      "quantity": 4,
+      "condition": "Good",
+      "location": "Bedroom wardrobe",
+      "purchase_date": "2024-05-01",
+      "purchase_price": 60,
+      "estimated_purchase_price": null,
+      "resale_value": 20,
+      "replacement_value": 60,
+      "serial_number": null,
+      "notes": "Pack of 4 staple daily T-shirts (2x Navy, 1x White, 1x Charcoal).",
+      "tags": [
+        "Basics",
+        "Cotton",
+        "Multi-Pack"
+      ],
+      "photograph": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2026-06-01T15:00:00Z",
+      "updated_at": "2026-06-01T15:00:00Z",
+      "last_valued_at": null,
+      "valuations": [],
+      "attachments": [],
+      "user_id": "usr_charlie_01",
+      "qr_code_data": "data:image/png;base64,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",
+      "qr_code_url": "https://ais-pre-j4v5u7rl6uj7h2oeo623jd-132316863938.europe-west2.run.app/item/SOLK-000010"
+    },
+    {
+      "id": "itm_011",
+      "inventory_id": "SOLK-000011",
+      "name": "Fujifilm X100V Digital Camera",
+      "brand": "Fujifilm",
+      "model": "X100V Silver 26.1MP",
+      "category_id": "cat_tech",
+      "subcategory_id": "cat_tech_cameras",
+      "quantity": 1,
+      "condition": "Like New",
+      "location": "Desk",
+      "purchase_date": "2022-04-10",
+      "purchase_price": 1349,
+      "estimated_purchase_price": null,
+      "resale_value": 1450,
+      "replacement_value": 1599,
+      "serial_number": "0D001928",
+      "notes": "Shutter count under 1,800. Fitted with B+W weather sealing filter and squarehood adapter.",
+      "tags": [
+        "Photography",
+        "Rangefinder",
+        "Fujifilm"
+      ],
+      "photograph": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2026-06-15T11:20:00Z",
+      "updated_at": "2026-10-06T16:00:00Z",
+      "last_valued_at": "2026-10-06T16:00:00Z",
+      "valuations": [
+        {
+          "id": "val_011_1",
+          "item_id": "itm_011",
+          "value_low": 1400,
+          "value_high": 1520,
+          "suggested_price": 1450,
+          "currency": "GBP",
+          "confidence": "High",
+          "valuation_type": "AI",
+          "valuation_date": "2026-10-06T16:00:00Z",
+          "source_information": "Researched 18 sold listings across eBay UK and London Camera Exchange.",
+          "comparable_count": 18,
+          "market_summary": "Unprecedented market premium due to global viral demand; pristine silver examples consistently sell above original RRP."
+        }
+      ],
+      "attachments": [],
+      "user_id": "usr_charlie_01",
+      "qr_code_data": "data:image/png;base64,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",
+      "qr_code_url": "https://ais-pre-j4v5u7rl6uj7h2oeo623jd-132316863938.europe-west2.run.app/item/SOLK-000011"
+    },
+    {
+      "id": "itm_012",
+      "inventory_id": "SOLK-000012",
+      "name": "Vintage Swiss Army Wool Blanket",
+      "brand": "Swiss Military Surplus",
+      "model": "Cross & Red Stripe Heavyweight Wool",
+      "category_id": "cat_home",
+      "subcategory_id": "cat_home_bedding",
+      "quantity": 1,
+      "condition": "Good",
+      "location": "Ski locker",
+      "purchase_date": null,
+      "purchase_price": null,
+      "estimated_purchase_price": null,
+      "resale_value": 65,
+      "replacement_value": null,
+      "serial_number": null,
+      "notes": "Found in vintage shop in Geneva. Genuine embossed cross and maker initials stamp. Heavy 100% boiled wool.",
+      "tags": [
+        "Vintage",
+        "Militaria",
+        "Wool"
+      ],
+      "photograph": "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2026-07-02T16:00:00Z",
+      "updated_at": "2026-10-08T22:23:17.586Z",
+      "last_valued_at": "2026-10-08T22:23:17.586Z",
+      "valuations": [
+        {
+          "id": "val_1791498197586",
+          "item_id": "itm_012",
+          "value_low": 59,
+          "value_high": 72,
+          "suggested_price": 65,
+          "currency": "GBP",
+          "confidence": "High",
+          "valuation_type": "AI",
+          "valuation_date": "2026-10-08T22:23:17.586Z",
+          "source_information": "Researched comparable UK second-hand market listings.",
+          "comparable_count": 6,
+          "comparable_listings": [
+            {
+              "title": "Vintage Swiss Army Wool Blanket (Good)",
+              "price": "£75",
+              "platform": "eBay UK Sold",
+              "condition": "Good",
+              "notes": "Completed transaction in equivalent cosmetic state"
+            },
+            {
+              "title": "Swiss Military Surplus Vintage Swiss Army Wool Blanket",
+              "price": "£59",
+              "platform": "Vinted / Second Hand",
+              "condition": "Good",
+              "notes": "Similar item listed without original packaging"
+            },
+            {
+              "title": "Vintage Swiss Army Wool Blanket refurbished/pre-owned",
+              "price": "£72",
+              "platform": "Specialist Re-Commerce",
+              "condition": "Good",
+              "notes": "Tested and verified working condition"
+            }
+          ],
+          "market_summary": "Solid secondary liquidity for Swiss Military Surplus Vintage Swiss Army Wool Blanket. Condition is assessed as Good, keeping asking prices stable around £59–£72.",
+          "web_search_queries": [],
+          "grounding_sources": []
+        }
+      ],
+      "attachments": [],
+      "user_id": "usr_charlie_01",
+      "qr_code_data": "data:image/png;base64,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",
+      "qr_code_url": "https://ais-pre-j4v5u7rl6uj7h2oeo623jd-132316863938.europe-west2.run.app/item/SOLK-000012"
+    }
+  ],
+  "settings": {
+    "id_prefix": "SOLK",
+    "currency": "GBP",
+    "app_url": "https://ais-pre-j4v5u7rl6uj7h2oeo623jd-132316863938.europe-west2.run.app"
+  }
+}
